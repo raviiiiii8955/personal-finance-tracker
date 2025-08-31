@@ -1,34 +1,22 @@
-# Gradle files
-.gradle/
-build/
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Python-specific files
+__pycache__/
+*.py[cod]
+*.so
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Virtual environment
+.venv/
+env/
 
-# Log/OS Files
-*.log
+# Sensitive data and environment files
+.env
+db.sqlite3  # Optional: only if you have a database file that should not be committed
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# IDE-specific files (e.g., from VS Code, PyCharm)
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Operating System files
+.DS_Store
+Thumbs.db
